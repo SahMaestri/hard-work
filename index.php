@@ -28,7 +28,7 @@
     
 
 
-    <body>        
+    <body background="Img/background.jpg">        
         <div class="container">
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
@@ -37,24 +37,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="../" class="navbar-brand">Salão</a>
+                <a href="../" class="navbar-brand"></a>
             </div>
             <nav id="bs-navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../getting-started/">Novidades</a>
+                        <a href="../getting-started/">Home</a>
                     </li>
                     <li>
-                        <a href="../css/">Importados</a>
+                        <a href="../css/"></a>
                     </li>
                     <li>
                         <a href="../components/">Ofertas</a>
                     </li>
                     <li class="active">
-                        <a href="../javascript/"> Fale conosco</a>
+                        <a href="../javascript/"> cadastrar-se</a>
                     </li>
                     <li>
-                        <a href="../customize/">Mais vendidos</a>
+                        <a href="../customize/">Fale conosco</a>
                     </li>
                 </ul>
                 
@@ -118,13 +118,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="Img/camaro.jpg" alt="...">
+                        <img src="Img/corolla.jpg" alt="...">
                         <div class="carousel-caption">
                             ...
                         </div>
                     </div>
                     <div class="item">
-                        <img src="Img/camaro.jpg" alt="650">
+                        <img src="Img/imagennova.jpg" alt="650">
 
                         <div class="carousel-caption">
                             ...
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="Img/porsche.jpg" alt="650">
+                        <img src="Img/camaroblack.jpg" alt="650">
 
                         <div class="carousel-caption">
                             ...
@@ -155,8 +155,8 @@
         </div>
         <br>
         <br>
-    <center><h1>Carros importados</h1></center>
-        <div>  <CENTER><img src="Img/tracker.pg.jpg"  alt="800"></CENTER>  
+    <center><h1> Importados</h1></center>
+    <div>  <CENTER><img src="Img/bmwwhate.jpg"  alt="800"></CENTER>  
             <br>
             <br>
             <br>
