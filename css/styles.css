@@ -2,7 +2,7 @@ body{
     background-color: #ccc
 }
 #divBusca{
-    background-color:#030;
+    background-color:#000
     border:solid 1px;
     border-radius:20px;
     width:300px;
@@ -10,7 +10,7 @@ body{
  
 #txtBusca{
     float:left;
-    background-color:#000\9;
+    background-color:#000
     padding-left:5px;
     font-style:italic;
     font-size:18px;
