@@ -37,24 +37,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="../" class="navbar-brand">Salão</a>
+                 <a href="index.php" class="navbar-brand">Home</a>
             </div>
             <nav id="bs-navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../getting-started/">Novidades</a>
+                        <a href="../getting-started/"></a>
                     </li>
                     <li>
-                        <a href="../css/">Importados</a>
+                        <a href="../css/"></a>
                     </li>
                     <li>
-                        <a href="../components/">Ofertas</a>
+                        <a href="ofertas.php">Ofertas</a>
                     </li>
                     <li class="active">
-                        <a href="../javascript/"> Fale conosco</a>
+                        <a href="CadastroCliente.php"> Cadastrar-se</a>
                     </li>
                     <li>
-                        <a href="../customize/">Mais vendidos</a>
+                        <a href="../customize/">Fale conosco</a>
                     </li>
                 </ul>
                 
@@ -65,7 +65,7 @@
         <div class="bs-docs-header" id="content" tabindex="-1">
             <div class="container">
                 <h1>Speed Veículos</h1>
-                <p>O site com maior número de vendas da região,os melhores preços e as maiores ofertas!</p> 
+                <p>A loja com maior número de vendas da região,os melhores preços e as maiores ofertas!</p> 
                 <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script>var z = document.createElement("script");
                     z.async = true;
                    
@@ -118,7 +118,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="Img/camaro.jpg" alt="...">
+                        <img src="Img/chev.jpg" alt="...">
                         <div class="carousel-caption">
                             ...
                         </div>
@@ -155,22 +155,32 @@
         </div>
         <br>
         <br>
-    <center><h1>Carros importados</h1></center>
-        <div>  <CENTER><img src="Img/tracker.pg.jpg"  alt="800"></CENTER>  
+        <div class="row">
+            <center><h1>Carros importados</h1></center>
+            <CENTER><img src="Img/tracker.pg.jpg"  alt="800"></CENTER>  
             <br>
             <br>
             <br>
             <center> <h1>Nacionais</h1></center>
-            <CENTER> <img src="Img/cobalt.pg.jpg" alt="800"></CENTER> 
-
+            <CENTER> <img src="Img/cobalt.pg.jpg" alt="800"></CENTER>
+            <br>
+            <br>
+            <br>
+            
+            <CENTER> <img src="Img/hhh.jpg" alt="800"></CENTER>
+            <br>
+            <br>
+            <br>
+            <CENTER> <img src="Img/2013.jpg" alt="800"></CENTER>
                      
+        </div>
+            
+            
+            
 
-            
-            
-            
-            <div> 
-
- 
+        <div class="container">
+            <h3>  Senac Informática</h3>
+        </div>
 
 
 
