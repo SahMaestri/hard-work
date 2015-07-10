@@ -2,18 +2,18 @@
 
 <html>
     <head>
-        
-        
+
+
 
         <title>Eta sozin</title>
-        <style> 
-           
+        <style>
+
         </style>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
-            <link href="css/docs.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/docs.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
@@ -23,12 +23,12 @@
 
             }
         </style>
-       
-    </head>  
-    
+
+    </head>
 
 
-    <body >        
+
+    <body >
         <div class="container">
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
@@ -57,71 +57,71 @@
                         <a href="../customize/">Fale conosco</a>
                     </li>
                 </ul>
-                
+
             </nav>
-           
+
 
         </div>
         <div class="bs-docs-header" id="content" tabindex="-1">
             <div class="container">
                 <h1>Speed Veículos</h1>
-                <p>A loja com maior número de vendas da região,os melhores preços e as maiores ofertas!</p> 
-                <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script>var z = document.createElement("script");
-                    
-                   
+                <p>A loja com maior número de vendas da região,os melhores preços e as maiores ofertas!</p>
+                <div ><div id="azcarbon"></div><script>var z = document.createElement("script");
+
+
                     var s = document.getElementsByTagName("script")[0];
                     s.parentNode.insertBefore(z, s);</script></div></div>
-                
-                
-            
-
-
-            </div>
-        </div>
 
 
 
-
-
-        <!--<div class="wrapper">-->
-        <div class="header">
 
 
         </div>
+    </div>
 
 
 
 
-        <div class="container">
 
-            <form class="form-inline">
-                
-               
-            </form>
-            <div>
+    <!--<div class="wrapper">-->
+    <div class="header">
+
+
+    </div>
+
+
+
+
+    <div class="container">
+
+        <form class="form-inline">
+
+
+        </form>
+        <div>
             <center><h1>Ofertas</h1></center>
             <br>
             <br>
             <br>
-            </div>
-            <div>
+        </div>
+        <div>
             <center><h1>Tracker 2015</h1></center>
-            <CENTER><img src="Img/tracker.pg.jpg"  alt="800"></CENTER>  
+            <CENTER><img src="Img/tracker.pg.jpg"  alt="800"></CENTER>
             <br>
             <br>
             <br>
-            </div>
-            <center> <h1>Cobalt 2015</h1></center>
-            <CENTER> <img src="Img/cobalt.pg.jpg" alt="800"></CENTER>
-            <br>
-            
-            <div class="container">
-                
-                    
-                <h3>senac Informática</h3>
-                
-                
-            </div>
-            
-            </body>
-            </html>
+        </div>
+        <center> <h1>Cobalt 2015</h1></center>
+        <CENTER> <img src="Img/cobalt.pg.jpg" alt="800"></CENTER>
+        <br>
+
+        <div class="container">
+
+
+            <h3>senac Informática</h3>
+
+
+        </div>
+
+</body>
+</html>
