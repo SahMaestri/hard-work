@@ -1,13 +1,10 @@
 <html>
- <head>
-     
-     
-     
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
-            <link href="css/docs.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/docs.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
@@ -17,12 +14,50 @@
 
             }
         </style>
-       
-    </head>  
-    
 
-
-    <body >        
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>CADASTRO DE CLIENTES </title>
+        <style type="text/css">
+            <!--
+            .style1 {
+                color: #FF0000;
+                font-size: x-small;
+            }
+            .style3 {color: #0000FF; font-size: x-small; }
+        </style>
+        <script type="text/javascript">
+            function validaCampo()
+            {
+                if (document.cadastro.nome.value == "")
+                {
+                    alert("O Campo nome é obrigatório!");
+                    return false;
+                }
+                else
+                if (document.cadastro.email.value == "")
+                {
+                    alert("O Campo email e obrigatorio");
+                    return false;
+                }
+                else
+                if (document.cadastro.login.value == "")
+                {
+                    alert("O Campo Login é obrigatório!");
+                    return false;
+                }
+                else
+                if (document.cadastro.senha.value == "")
+                {
+                    alert("Digite uma senha!");
+                    return false;
+                }
+                else
+                    return true;
+            }
+<!-- Fim do JavaScript que validará os campos obrigatórios! -->
+        </script>
+    </head>
+    <body >
         <div class="container">
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
@@ -48,208 +83,80 @@
                         <a href="CadastroCliente.php"> Cadastrar-se</a>
                     </li>
                     <li>
-                        <a href="../customize/">Fale conosco</a>
+                        <a href="FaleConosco.php">Fale conosco</a>
                     </li>
                 </ul>
-                
+
             </nav>
-        
-            
- <title> Cadastrar-se </title>
- 
- 
+        </div>
+        <div class="bs-docs-header" id="content" tabindex="-1">
+            <div class="container">
+                <h1>Speed Veículos</h1>
+                <p>A loja com maior número de vendas da região,os melhores preços e as maiores ofertas!</p>
+                <div ><div ><div ></div><script>var z = document.createElement("script");
 
- <div>
 
-<form action="Script_do_Formulario.php" method="post">
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(z, s);</script></div></div>
 
-<!-- DADOS PESSOAIS-->
-<fieldset>
- <legend>Dados Pessoais</legend>
- <table cellspacing="10">
-  <tr>
-   <td>
-    <label for="nome">Nome: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="email">
-   </td>
-   <td>
-    <label for="sobrenome">Sobrenome: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="sobrenome">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label>Nascimento: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
-   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
-   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="rg">RG: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="rg" size="13" maxlength="13"> 
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label>CPF:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
-   </td>
-  </tr>
- </table>
-</fieldset>
 
-<br />
-<!-- ENDEREÇO -->
-<fieldset>
- <legend>Dados de Endereço</legend>
- <table cellspacing="10">
 
-  <tr>
-   <td>
-    <label for="rua">Rua:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="rua">
-   </td>
-   <td>
-    <label for="numero">Numero:</label>
-   </td>
-   <td align="left">
-    <input type="text" name="numero" size="4">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="bairro">Bairro: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="bairro">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="estado">Estado:</label>
-   </td>
-   <td align="left">
-    <select name="estado"> 
-    <option value="ac">Acre</option> 
-    <option value="al">Alagoas</option> 
-    <option value="am">Amazonas</option> 
-    <option value="ap">Amapá</option> 
-    <option value="ba">Bahia</option> 
-    <option value="ce">Ceará</option> 
-    <option value="df">Distrito Federal</option> 
-    <option value="es">Espírito Santo</option> 
-    <option value="go">Goiás</option> 
-    <option value="ma">Maranhão</option> 
-    <option value="mt">Mato Grosso</option> 
-    <option value="ms">Mato Grosso do Sul</option> 
-    <option value="mg">Minas Gerais</option> 
-    <option value="pa">Pará</option> 
-    <option value="pb">Paraíba</option> 
-    <option value="pr">Paraná</option> 
-    <option value="pe">Pernambuco</option> 
-    <option value="pi">Piauí</option> 
-    <option value="rj">Rio de Janeiro</option> 
-    <option value="rn">Rio Grande do Norte</option> 
-    <option value="ro">Rondônia</option> 
-    <option value="rs">Rio Grande do Sul</option> 
-    <option value="rr">Roraima</option> 
-    <option value="sc">Santa Catarina</option> 
-    <option value="se">Sergipe</option> 
-    <option value="sp">São Paulo</option> 
-    <option value="to">Tocantins</option> 
-   </select>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="cidade">Cidade: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="cidade">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="cep">CEP: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
-   </td>
-  </tr>
- </table>
-</fieldset>
-<br />
 
-<!-- DADOS DE LOGIN -->
-<fieldset>
- <legend>Dados de login</legend>
- <table cellspacing="10">
-  <tr>
-   <td>
-    <label for="email">E-mail: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="email">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="imagem">Imagem de perfil:</label>
-   </td>
-   <td>
-    <input type="file" name="imagem" >
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="login">Login de usuário: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="login">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="pass">Senha: </label>
-   </td>
-   <td align="left">
-    <input type="password" name="pass">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="passconfirm">Confirme a senha: </label>
-   </td>
-   <td align="left">
-    <input type="password" name="passconfirm">
-   </td>
-  </tr>
- </table>
-</fieldset>
-<br />
-<input type="submit">
-<input type="reset" value="Limpar">
-</form>
+            </div>
+        </div>
+        <form id="cadastro" name="cadastro" method="post" action="cadastro.php" onsubmit="return validaCampo();
+                return false;">
+            <table width="625" border="0">
+                <tr>
+                    <td width="69">Nome:</td>
+                    <td width="546"><input name="nome" type="text" id="nome" size="70" maxlength="60" />
+                        <span class="style1">*</span></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input name="email" type="text" id="email" size="70" maxlength="60" />
+                        <span class="style1">*</span></td>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td><input name="sexo" type="radio" value="Masculino" checked="checked" />
+                        Masculino
+                        <input name="sexo" type="radio" value="Feminino" />
+                        Feminino <span class="style1">*</span> </td>
+                </tr>
 
- <div class="container">
-     <h3>Senac Informática</h3>
-     </div>
- </div>
- </body>
+                <tr>
+                    <td>Login:</td>
+                    <td><input name="login" type="text" id="login" maxlength="12" />
+                        <span class="style1">*</span></td>
+                </tr>
+                <tr>
+                    <td>Senha:</td>
+                    <td><input name="senha" type="password" id="senha" maxlength="12" />
+                        <span class="style1">*</span></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><p>
+                            <input name="cadastrar" type="submit" id="cadastrar" value="Concluir meu Cadastro!" />
+
+
+                            <input name="limpar" type="reset" id="limpar" value="Limpar Campos preenchidos!" />
+
+
+                            <span class="style1">* Campos com * sao obrigatorios!          </span></p>
+                        <p>  </p></td>
+                </tr>
+            </table>
+        </form>
+
+
+
+        <div class="container">
+            <h3>Senac Informática</h3>
+        </div>
+    </div>
+</body>
 </html>
 
