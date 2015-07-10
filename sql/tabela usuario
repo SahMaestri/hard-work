@@ -3,5 +3,5 @@ CREATE TABLE `speed veiculos`.`usuario` (
   `nome` VARCHAR(45) NOT NULL,
   `sexo` VARCHAR(1) NOT NULL,
   `login` VARCHAR(45) NOT NULL,
-  `senha` INT NOT NULL AUTO_INCREMENT,
+  `senha` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`, `nome`, `sexo`, `login`, `senha`));
