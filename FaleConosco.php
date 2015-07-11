@@ -1,5 +1,3 @@
-
-
 <html>
     <head>
 
@@ -23,6 +21,7 @@
 
             }
         </style>
+
 
     </head>
 
@@ -54,11 +53,38 @@
                         <a href="CadastroCliente.php"> Cadastrar-se</a>
                     </li>
                     <li>
-                        <a href="../customize/">Fale conosco</a>
+                        <a href="FaleConosco.php">Fale conosco</a>
                     </li>
                 </ul>
 
             </nav>
+
+
+        </div>
+        <div class="bs-docs-header" id="content" tabindex="-1">
+            <div class="container">
+                <h1>Speed Veículos</h1>
+                <p>A loja com maior número de vendas da região,os melhores preços e as maiores ofertas!</p>
+                <div ><div><div id="azcarbon"></div><script>var z = document.createElement("script");
+                    z.async = true;
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(z, s);</script></div></div>
+
+                <center>   <input type="text" id="txtBusca" placeholder="Pesquisar"/> </center>
+
+
+            </div>
+        </div>
+
+
+        <div>
+
+            <center><h1> Entre em contato conosco</h1></center>  <br>
+            <center><h4>  Av.Lugar nenhum,Bairro Me fudi fazendo isso, Porto Alegre, RS   <br> <br>
+                    SpeedVeículos@hotmail.com    <br> <br>
+                    fone:  051 32556987-32698574 </h4> </center>
+
+
 
 
         </div>

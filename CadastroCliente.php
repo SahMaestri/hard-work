@@ -138,6 +138,11 @@
                 </tr>
 
                 <tr>
+                    <td>ConfirmeSenha:</td>
+                    <td><input name="senha" type="password" id="senha" maxlength="12" />
+                        <span class="style1">*</span></td>
+                </tr>
+                <tr>
                     <td colspan="2"><p>
                             <input name="cadastrar" type="submit" id="cadastrar" value="Concluir meu Cadastro!" />
 
