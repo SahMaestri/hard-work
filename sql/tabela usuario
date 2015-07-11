@@ -1,7 +1,10 @@
-CREATE TABLE `speed veiculos`.`usuario` (
-  `id` INT NOT NULL,
+CREATE TABLE `speed veiculos`.`cadastro` (
+  `id` INT NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
   `sexo` VARCHAR(1) NOT NULL,
   `login` VARCHAR(45) NOT NULL,
-  `senha` INT NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`id`, `nome`, `sexo`, `login`, `senha`));
+  `senha` VARCHAR(45) NOT NULL,
+  `confirme senha` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`, `nome`, `email`, `sexo`, `login`, `senha`, `confirme senha`));
+
