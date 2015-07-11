@@ -54,7 +54,7 @@
                         <a href="CadastroCliente.php"> Cadastrar-se</a>
                     </li>
                     <li>
-                        <a href="../customize/">Fale conosco</a>
+                        <a href="FaleConosco.php">Fale conosco</a>
                     </li>
                 </ul>
 

@@ -2,9 +2,6 @@
 
 <html>
     <head>
-
-
-
         <title>Eta sozin</title>
         <style>
 
@@ -23,6 +20,7 @@
 
             }
         </style>
+
 
     </head>
 
@@ -68,7 +66,6 @@
                 <p>A loja com maior número de vendas da região,os melhores preços e as maiores ofertas!</p>
                 <div ><div><div id="azcarbon"></div><script>var z = document.createElement("script");
                     z.async = true;
-
                     var s = document.getElementsByTagName("script")[0];
                     s.parentNode.insertBefore(z, s);</script></div></div>
 
@@ -171,6 +168,7 @@
             <br>
             <br>
             <br>
+            <center> <h1> Camaro</h1> </center>
             <CENTER> <img src="Img/2013.jpg" alt="800"></CENTER>
 
         </div>
