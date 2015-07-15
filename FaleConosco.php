@@ -50,7 +50,7 @@
                         <a href="ofertas.php">Ofertas</a>
                     </li>
                     <li class="active">
-                        <a href="CadastroCliente.php"> Cadastrar-se</a>
+                        <a href="_user-form.php"> Cadastrar-se</a>
                     </li>
                     <li>
                         <a href="FaleConosco.php">Fale conosco</a>

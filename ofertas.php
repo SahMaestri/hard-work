@@ -5,7 +5,7 @@
 
 
 
-        <title>Eta sozin</title>
+        <title>Ofertas</title>
         <style>
 
         </style>
@@ -51,7 +51,7 @@
                         <a href="ofertas.php">Ofertas</a>
                     </li>
                     <li class="active">
-                        <a href="CadastroCliente.php"> Cadastrar-se</a>
+                        <a href="_user-form.php"> Cadastrar-se</a>
                     </li>
                     <li>
                         <a href="FaleConosco.php">Fale conosco</a>
@@ -108,13 +108,26 @@
             <center><h1>Tracker 2015</h1></center>
             <CENTER><img src="Img/tracker.pg.jpg"  alt="800"></CENTER>
             <br>
+            <h3> TRACKER 2015 </h3>
+            O SUV dos exploradores urbanos.
+            Um SUV inteligente e eficiente que vai proporcionar aventuras urbanas que você jamais conseguiu imaginar. Seu estilo autêntico é visivelmente poderoso e contém a mais alta tecnologia, e conta com vários dispositivos de conforto e conveniência.
+            A Tracker 2015 tem opcionais que garantem tecnologia e segurança, como: direção hidráulica, ar-condicionado, airbag, freios ABS nas 4 rodas com EBD (distribuição eletrônica da força de frenagem), câmbio automático com 6 velocidades, rodas de alumínio aro 18”, bluetooth, conexão USB, sistema MyLink (com display colorido de 7” sensível ao toque), volante em couro, faróis de neblina, sensor de estacionamento, chave canivete, conjunto elétrico e muito mais.
+            O Chevrolet Tracker vem equipado com um poderoso motor 1.8 L, com 4 cilindros e 144 cavalos de potência.
             <br>
             <br>
         </div>
         <center> <h1>Cobalt 2015</h1></center>
         <CENTER> <img src="Img/cobalt.pg.jpg" alt="800"></CENTER>
         <br>
-
+        <br>
+        <h3> COBALT 2015</h3>  <br>
+        Mais que um novo carro. Uma nova referência.
+        O Chevrolet Cobalt 2015 é um sedan moderno, espaçoso, econômico, com design ousado que oferece muita segurança. Um automóvel projetado com espaço de sobra para você e sua família curtirem uma viagem juntos e preparado para encarar o dia a dia. Com motores Econoflex 1.4 L (102cv) e 1.8 L (108cv) e um porta-malas de 563 litros e uma distância entre eixos de 2620mm, o Cobalt é referência na categoria. Ele vem equipado* com itens como direção hidráulica, airbag duplo, sistema de freios ABS com EBD (Electronic Brake Force Distribution) nas quatro rodas, sistema MyLink (conectividade e interatividade com o seu smartphone), ar-condicinado, alarme, vidros e travas elétricas, entre outros.
+        Nas versões LS, LT e LTZ,  com câmbio manual e automático.
+        Disponível em seis opções de cores.
+        *itens não disponíveis para todas as versões.
+        Adquira já o seu tão desejado carro com a Nova Chevrolet!
+        <br>
         <div class="container">
 
 

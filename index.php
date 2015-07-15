@@ -1,8 +1,12 @@
-
+<?php
+require 'inc/common.php';
+session_start();
+//dd($_SESSION);
+?>
 
 <html>
     <head>
-        <title>Eta sozin</title>
+        <title>Speed veiculos</title>
         <style>
 
         </style>
@@ -20,12 +24,7 @@
 
             }
         </style>
-
-
     </head>
-
-
-
     <body>
         <div class="container">
             <div class="navbar-header">
@@ -43,13 +42,13 @@
                         <a href="../getting-started/"></a>
                     </li>
                     <li>
-                        <a href="../css/"></a>
+
                     </li>
                     <li>
                         <a href="ofertas.php">Ofertas</a>
                     </li>
                     <li class="active">
-                        <a href="CadastroCliente.php"> Cadastrar-se</a>
+                        <a href="_user-form.php"> Cadastrar-se</a>
                     </li>
                     <li>
                         <a href="FaleConosco.php">Fale conosco</a>
@@ -71,38 +70,14 @@
 
 
                 <center>   <input type="text" id="txtBusca" placeholder="Pesquisar"/> </center>
-
-
             </div>
         </div>
-
-
-
-
-
         <!--<div class="wrapper">-->
         <div class="header">
-
-
         </div>
-
-
-
-
         <div class="container">
 
-            <form class="form-inline">
-                <div class="form-group">
-                    <label for="exampleInputName2">Login</label>
-                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Login" >
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="exampleInputPassword3">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-default">Entrar</button>
-            </form>
-
+            <?php include('header.php'); ?>
 
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -111,7 +86,6 @@
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 </ol>
-
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
@@ -137,8 +111,6 @@
                     </div>
                     ...
                 </div>
-
-
                 <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -154,13 +126,16 @@
         <br>
         <div class="row">
             <center><h1>Tracker 2015</h1></center>
-            <CENTER><img src="Img/tracker.pg.jpg"  alt="800"></CENTER>
+            <CENTER><a href="ofertas.php"><img src="Img/tracker.pg.jpg"  alt="800"></a> </CENTER>
             <br>
             <br>
             <br>
             <center> <h1>Cobalt 2015</h1></center>
-            <CENTER> <img src="Img/cobalt.pg.jpg" alt="800"></CENTER>
+            <CENTER> <a href="ofertas.php"><img src="Img/cobalt.pg.jpg" alt="800"></a></CENTER>
             <br>
+            <div>
+
+            </div>
             <br>
             <br>
 
@@ -170,17 +145,9 @@
             <br>
             <center> <h1> Camaro</h1> </center>
             <CENTER> <img src="Img/2013.jpg" alt="800"></CENTER>
-
         </div>
-
-
-
-
         <div class="container">
             <h3>  Senac Informática</h3>
         </div>
-
-
-
     </body>
 </html>
